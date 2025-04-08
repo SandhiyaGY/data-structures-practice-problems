@@ -66,7 +66,7 @@ From the head of B it reads as [5,6,1,<u>8,4,5</u>].
 
 ### Approach: Two Pointer Technique
 
-- Use two pointers: `pA` starting at `headA` and `pB` at `headB`.
+- Use two pointers: `ptrA` starting at `headA` and `ptrB` at `headB`.
 - Traverse each list. When a pointer reaches the end of its list, redirect it to the head of the other list.
 - They will either meet at the intersection node or both reach `null` (no intersection).
 - Ensures each pointer travels exactly `lengthA + lengthB`.
