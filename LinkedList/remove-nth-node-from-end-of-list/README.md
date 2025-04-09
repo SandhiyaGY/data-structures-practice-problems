@@ -8,7 +8,7 @@
 
 <!-- description:end -->
 
----
+
 
 ## Examples
 
@@ -44,21 +44,18 @@
 
 ## Solutions
 
-### Approach: Two Pointers (Fast and Slow)
+### Approach: Two-Pass Algorithm (Count Length First)
 
-To remove the nth node from the end, we can use the two-pointer technique:
-
-1. Create a dummy node pointing to the head (to simplify edge cases like removing the first node).
-2. Move the fast pointer `n+1` steps ahead.
-3. Then move both `fast` and `slow` pointers one step at a time until `fast` reaches the end.
-4. `slow` will be right before the node to be deleted.
-5. Adjust `slow.next` to skip the target node.
-
-This approach ensures a single pass through the list with `O(n)` time complexity and `O(1)` space.
+<ul>
+  <li>Step 1: Traverse the entire list to calculate its length <code>len</code>.</li>
+  <li>Step 2: If <code>n == len</code>, it means the node to remove is the head itself. Return <code>head.next</code>.</li>
+  <li>Step 3: Traverse again to reach the node just before the one that needs to be deleted (<code>len - n</code> steps).</li>
+  <li>Step 4: Remove the target node by skipping it: <code>prev.next = cur.next</code>.</li>
+</ul>
 
 ---
 
-### Java
+## Java
 
 ```java
 /**
@@ -73,26 +70,23 @@ This approach ensures a single pass through the list with `O(n)` time complexity
  */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        // Create a dummy node pointing to the head
-        ListNode dummy = new ListNode(0);
-        dummy.next = head;
-        ListNode fast = dummy;
-        ListNode slow = dummy;
-
-        // Move fast ahead by n + 1 steps
-        for (int i = 0; i <= n; i++) {
-            fast = fast.next;
+        int len = 0;
+        ListNode temp = head;
+        while (temp != null) {
+            len++;
+            temp = temp.next;
         }
-
-        // Move fast to the end, maintaining the gap
-        while (fast != null) {
-            fast = fast.next;
-            slow = slow.next;
+        if (n == len) {
+            return head.next;
         }
+        ListNode cur = head;
+        ListNode prev = null;
+        for (int i = 0; i < len - n; i++) {
+            prev = cur;
+            cur = cur.next;
+        }
+        prev.next = cur.next;
 
-        // Remove the nth node
-        slow.next = slow.next.next;
-
-        return dummy.next;
+        return head;
     }
 }
