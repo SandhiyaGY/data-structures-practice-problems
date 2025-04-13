@@ -14,4 +14,6 @@ This repo has programs from basic level to harder ones. I'm updating it as I lea
 |Leetcode|876|[middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/description/)|[java](https://github.com/SandhiyaGY/DS/blob/main/LinkedList/middle-of-the-linked-list/README.md)|Easy|
 |Leetcode|234|[palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/description/)|[java](https://github.com/SandhiyaGY/DS/tree/main/LinkedList/palindrome-linked-list)|Easy|
 |Leetcode|160|[intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[java](https://github.com/SandhiyaGY/DS/tree/main/LinkedList/intersection-of-two-linked-lists)|Easy|
+|Leetcode|19|[remove-nth-node-from-end-of-list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[java](https://github.com/SandhiyaGY/DS/tree/main/LinkedList/remove-nth-node-from-end-of-list)|Medium|
+|Leetcode|61|[rotate-list](https://leetcode.com/problems/rotate-list/description/)|[java](https://github.com/SandhiyaGY/DS/tree/main/LinkedList/rotate-list)|Medium|
 ---
