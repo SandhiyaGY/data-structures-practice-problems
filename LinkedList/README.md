@@ -1,11 +1,12 @@
-# 🔗 Linked List Practice (Beginner to Advanced)
 
-Hello! 👋 I’m **SandhiyaGY**, and this repository *DataStructures* contains a `/LinkedList` folder dedicated to practicing linked-list problems in Java.  
-From easy challenges to more advanced ones, you’ll find structured solutions with explanations. I’ll keep adding more as I continue learning 💻✨
+<h1>🔗 Linked List Practice (Beginner to Advanced)</h1>
 
----
+<p>Hello! 👋 I’m <strong>SandhiyaGY</strong>, and this repository <em>DataStructures</em> contains a <code>/LinkedList</code> folder dedicated to practicing linked-list problems in Java.<br />
+From easy challenges to more advanced ones, you’ll find structured solutions with explanations. I’ll keep adding more as I continue learning 💻✨</p>
 
-## 📚 What’s Inside?
+<hr />
+
+<h2>📚 What’s Inside?</h2>
 
 <table>
   <tr>
@@ -24,9 +25,9 @@ From easy challenges to more advanced ones, you’ll find structured solutions w
     <td>Easy</td>
   </tr>
   <tr>
-    <td>LeetCode</td><td>876</td>
-    <td><a href="https://leetcode.com/problems/middle-of-the-linked-list/">middle-of-the-linked-list</a></td>
-    <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/middle-of-the-linked-list">java</a></td>
+    <td>LeetCode</td><td>206</td>
+    <td><a href="https://leetcode.com/problems/reverse-linked-list/">reverse-linked-list</a></td>
+    <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/reverse-linked-list">java</a></td>
     <td>Easy</td>
   </tr>
   <tr>
@@ -36,10 +37,22 @@ From easy challenges to more advanced ones, you’ll find structured solutions w
     <td>Easy</td>
   </tr>
   <tr>
+    <td>LeetCode</td><td>876</td>
+    <td><a href="https://leetcode.com/problems/middle-of-the-linked-list/">middle-of-the-linked-list</a></td>
+    <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/middle-of-the-linked-list">java</a></td>
+    <td>Easy</td>
+  </tr>
+  <tr>
     <td>LeetCode</td><td>160</td>
     <td><a href="https://leetcode.com/problems/intersection-of-two-linked-lists/">intersection-of-two-linked-lists</a></td>
     <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/intersection-of-two-linked-lists">java</a></td>
     <td>Easy</td>
+  </tr>
+   <tr>
+    <td>LeetCode</td><td>2</td>
+    <td><a href="https://leetcode.com/problems/add-two-numbers/">add-two-numbers</a></td>
+    <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/add-two-numbers">java</a></td>
+    <td>Medium</td>
   </tr>
   <tr>
     <td>LeetCode</td><td>19</td>
@@ -50,13 +63,7 @@ From easy challenges to more advanced ones, you’ll find structured solutions w
   <tr>
     <td>LeetCode</td><td>61</td>
     <td><a href="https://leetcode.com/problems/rotate-list/">rotate-list</a></td>
-    <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/inkedList/rotate-list">java</a></td>
-    <td>Medium</td>
-  </tr>
-  <tr>
-    <td>LeetCode</td><td>92</td>
-    <td><a href="https://leetcode.com/problems/reverse-linked-list-ii/">reverse-linked-list-ii</a></td>
-    <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/reverse-linked-list-ii">java</a></td>
+    <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/rotate-list">java</a></td>
     <td>Medium</td>
   </tr>
   <tr>
@@ -72,6 +79,12 @@ From easy challenges to more advanced ones, you’ll find structured solutions w
     <td>Medium</td>
   </tr>
   <tr>
+    <td>LeetCode</td><td>92</td>
+    <td><a href="https://leetcode.com/problems/reverse-linked-list-ii/">reverse-linked-list-ii</a></td>
+    <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/reverse-linked-list-ii">java</a></td>
+    <td>Medium</td>
+  </tr>
+  <tr>
     <td>LeetCode</td><td>143</td>
     <td><a href="https://leetcode.com/problems/reorder-list/">reorder-list</a></td>
     <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/reorder-list">java</a></td>
@@ -83,9 +96,14 @@ From easy challenges to more advanced ones, you’ll find structured solutions w
     <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/lru-cache">java</a></td>
     <td>Medium</td>
   </tr>
+  <tr>
+    <td>LeetCode</td><td>148</td>
+    <td><a href="https://leetcode.com/problems/sort-list/">sort-list</a></td>
+    <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/sort-list">java</a></td>
+    <td>Medium</td>
+  </tr>
 </table>
 
----
+<hr />
 
-Happy coding! 🚀
-
+<p>Happy coding! 🚀</p>
