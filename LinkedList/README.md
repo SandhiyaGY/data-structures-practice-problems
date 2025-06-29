@@ -102,6 +102,13 @@ From easy challenges to more advanced ones, you’ll find structured solutions w
     <td><a href="https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/sort-list">java</a></td>
     <td>Medium</td>
   </tr>
+  <tr>
+    <td>LeetCode</td><td>138</td>
+    <td><a href="https://leetcode.com/problems/copy-list-with-random-pointer/description/">copy-list-with-random-pointer</a></td>
+    <td><a href=" https://github.com/SandhiyaGY/data-structures-practice-problems/tree/main/LinkedList/copy-list-with-random-pointer">java</a></td>
+    <td>Medium</td>
+  </tr>
+ 
 </table>
 
 <hr />
